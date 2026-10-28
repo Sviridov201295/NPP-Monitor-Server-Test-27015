@@ -1,0 +1,24 @@
+{
+  "source": "demo",
+  "s": {
+    "found": true,
+    "run": true,
+    "power": 0.8,
+    "setp": 80,
+    "fuelSec": 1234,
+    "fuelPct": 70,
+    "temp": 280,
+    "press": 35,
+    "pumps": 2,
+    "ventOn": true,
+    "slotsOk": 25,
+    "slotsAll": 25,
+    "wastePct": 18,
+    "tripped": false,
+    "city": {"station": 2000, "reserve": 300, "load": 2200, "blackout": false, "state": "Питание есть"},
+    "rx": {"found": true, "chans": 60, "fresh": 55, "spent": 5, "wear": 0.26, "stage": "РАБОТАЕТ"},
+    "tb": {"found": true, "rpm": 3000, "load": 2.0, "press": 35, "vac": 0.80, "oil": 0.73, "bear": 61, "grid": true, "tripped": false},
+    "ws": {"rack": {"cases": 2, "n": 12, "rods": 12}, "drum": {"rods": 5, "pockets": 12, "sealed": false}, "lift": {"sent": 2}},
+    "probs": [{"text": "Проверьте масло", "sev": 2, "node": "tb", "act": "Осмотреть турбину"}]
+  }
+}
